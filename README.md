@@ -7,8 +7,8 @@ This is a portfolio project built with Django to showcase my skills, projects, a
 - Django
 - Python
 - HTML/CSS
-- Bootstrap (or any other CSS framework)
-- SQLite (or any other database)
+- Bootstrap
+- SQLite
 
 ## Installation
 To get a local copy up and running, follow these steps:
