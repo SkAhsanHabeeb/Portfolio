@@ -40,13 +40,19 @@
     <section id="home" class="flex s-around sw-80 m-auto">
         <div class="home-left flex items-center">
             <div class="home-content">
-                <h1 class="popinss t-white">Hi, I'm Ahsan</h1>
+                <h1 class="popinss">Hi, I'm <span class="t-white">Ahsan</span></h1>
                 <h4 class="popinss">Python Devaloper and AI Enthusiasts</h4>
+
+                <div>
+                    <a href="https://github.com/SkAhsanHabeeb"><i class="bi bi-github"></i></a>
+                    <!-- hackerrank, linkedin, github -->
+                </div>
                 <a href="{% static 'pdf/Resume.pdf'%}" target="_blank">
                     <button class="btn popinss">Resume</button>
                 </a>
                 <a href="" class="btn popinss live" id="hireme" target="_blank">Let's Talk</a>
              </div>
+
         </div>
         <div class="home-right flex s-center items-center">
             <div class="circle flex s-center items-center" id="mainImage">
@@ -70,7 +76,7 @@
                     <p class="t-white poppins">My name is Sk Ahsan Habeeb.I’m a B.tech student from Cooch Behar Government College in Electronics and Communication Engineering.
                         
                         
-                        I am fresher, I’m passionate about creating quality products that meet all of the customer’s needs, and I love learning new techniques and technologies that allow me to make that happen.While I generally enjoy all of my job, the part I find most draining is estimating projects for customers. I don’t mind doing it, but I enjoy actually creating the software much more.</p>
+                        I am fresher, I’m passionate about creating quality products that meet all of the customer’s needs, and I love learning new techniques and technologies that allow me to make that happen.While I generally enjoy all of my job, the part I find most draining is estimating projects for customers. I don’t mind doing it, but I enjoy actually creating the web application much more.</p>
                     <a class="btn " id="hireme"
                         href="">Hire Me</a>
                 </div>
@@ -88,21 +94,21 @@
 
         <div class="skills-right flex items-center">
             <div class="skillss-container">
-                <div class="java bar p-relative"><span class="bar-content left t-white">Python</span><span
-                        class="bar-content right-skills t-white"></span></div>
-                <div class="java bar p-relative"><span class="bar-content left t-white">SQL</span><span
+                <div class="python bar p-relative"><span class="bar-content left t-white">Python</span><span
                         class="bar-content right-skills t-white">90%</span></div>
-                <div class="java bar p-relative"><span class="bar-content left t-white">Django</span><span
+                <div class="python bar p-relative"><span class="bar-content left t-white">SQL</span><span
                         class="bar-content right-skills t-white">90%</span></div>
-                <div class="css bar p-relative"><span class="bar-content left t-white">Data Stracture</span><span
+                <div class="python bar p-relative"><span class="bar-content left t-white">Django</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="django bar p-relative"><span class="bar-content left t-white">Data Stracture</span><span
                         class="bar-content right-skills t-white">80%</span></div>
-                <div class="css bar p-relative"><span class="bar-content left t-white">NumPy and Pandas</span><span
+                <div class="django bar p-relative"><span class="bar-content left t-white">NumPy and Pandas</span><span
                         class="bar-content right-skills t-white">80%</span></div>
-                <div class="js bar p-relative"><span class="bar-content left t-white"> Power BI</span><span
+                <div class="java bar p-relative"><span class="bar-content left t-white"> Power BI</span><span
                         class="bar-content right-skills t-white">70%</span></div>
-                <div class="js bar p-relative"><span class="bar-content left t-white">Open CV and Scikit Learn</span><span
+                <div class="java bar p-relative"><span class="bar-content left t-white">Open CV and Scikit Learn</span><span
                             class="bar-content right-skills t-white">70%</span></div>
-                <div class="python bar p-relative"><span class="bar-content left t-white">Git and GitHub</span><span
+                <div class="git bar p-relative"><span class="bar-content left t-white">Git and GitHub</span><span
                         class="bar-content right-skills t-white">60%</span></div>
                 <div class="mysql bar p-relative"><span class="bar-content left t-white">Core Java</span><span
                         class="bar-content right-skills t-white">50%</span></div>        
@@ -116,12 +122,35 @@
         <div class="projects-container flex s-center">
             <div class="projects-item flex f-col s-center items-center">
                
-                <h1 class="t-white poppins">Amazone-clone</h1>
-                <p class="t-white poppins"> This is a functional shopping app intended to be a clone of Amazon and some of its features. This is clone is mixed with my design style and features that I thought would make it look better. This was created with React and incorporates Firebase Cloud firestore , firebase authentication, and accepts payments through Stripe.</p>
+                <h1 class="t-white poppins">Medical Image Classification</h1>
+                <p class="t-white poppins">  Engineered and implemented a Neuro Fuzzy Inference System for brain tumour detection, improving detection accuracy by 30% 
+                    over previous methods, leading to earlier interventions and better patient outcomes.Optimised data preprocessing, feature extraction, and model tuning achieving an accuracy exceeding 92%.</p>
                 <div class="buttons flex s-around">
                     <a href=""
                         target="_blanks" class="btn mx-1 m-top">GitHub</a>
                     <a href="" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+               
+                <h1 class="t-white poppins">My Portfolio</h1>
+                <p class="t-white poppins">This is My portfolio website which is created with HTML,CSS and Javascript which describe my skill and knowledge.My portfolio website showcases my work in a sleek and minimalist design, allowing the focus to be on the content itself. The layout is uncluttered, making it easy for visitors to navigate and explore my projects.</p>
+                <div class="buttons flex s-around">
+                    <a href="" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="#" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+               
+                <h1 class="t-white poppins">My Portfolio</h1>
+                <p class="t-white poppins">This is My portfolio website which is created with HTML,CSS and Javascript which describe my skill and knowledge.My portfolio website showcases my work in a sleek and minimalist design, allowing the focus to be on the content itself. The layout is uncluttered, making it easy for visitors to navigate and explore my projects.</p>
+                <div class="buttons flex s-around">
+                    <a href="" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="#" target="_blanks" class="btn m-top live">Live
                         Link</a>
                 </div>
             </div>
