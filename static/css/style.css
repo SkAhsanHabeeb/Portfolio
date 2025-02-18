@@ -379,7 +379,12 @@ ul li a:hover {
 .t-white {
     color: #fff;
 }
-
+.p-white {
+    color: #edde0c;
+}
+.header {
+    color:rgb(249, 213, 165)
+}
 .bg-color {
     background-color: #1f1f38;
 }
@@ -450,4 +455,20 @@ ul li a:hover {
 .live {
     color: #1f1f38;
     background-color: #da7fa8;
+}
+/* for social icons */
+.social-icons {
+    margin-top: 20px;
+
+}
+.social-icons a {
+    margin-top:0 10px;
+    display: inline-block;
+
+}
+.social-logo{
+    width: 30px;
+    height: 30px;
+    justify-items: center;
+    transition: transform 0.3s ease;
 }
