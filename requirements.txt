@@ -10,3 +10,4 @@ requests==2.32.3
 setuptools==75.3.0
 sqlparse==0.5.1
 gunicorn==23.0.0
+whitenoise==6.6.0
